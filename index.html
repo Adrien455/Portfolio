@@ -10,13 +10,16 @@
 <body>
 
 <header>
-    <h1>Adrien Meyssonnier</h1>
+    <div class="header-top">
+        <h1>Adrien Meyssonnier</h1>
+
+        <img src="profile.jpg" alt="Profile picture" class="profile-pic">
+    </div>
+
     <p class="subtitle">Computer Science Student</p>
 
     <div class="button">
-        <button id="darkMode" onclick="toggleDarkMode()">
-            🌙
-        </button>
+        <button id="darkMode" type="button" onclick="toggleDarkMode()">🌙</button>
     </div>
 </header>
 
@@ -74,6 +77,22 @@
         <li>Language trips</li>
         <li>Associative activities & communication</li>
     </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="projects">
+        <a href="projects/ocr.html" class="project-card">
+            <h3>OCR Application</h3>
+            <p>Optical Character Recognition project written in C.</p>
+        </a>
+
+        <a href="projects/unity.html" class="project-card">
+            <h3>Unity Video Game</h3>
+            <p>3D video game developed with Unity.</p>
+        </a>
+    </div>
 </section>
 
 <footer>
